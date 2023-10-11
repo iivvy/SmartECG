@@ -1,0 +1,14 @@
+### predict labels endpoint
+POST {{host}}/predict
+accept: application/json
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="ecg.csv"
+
+< ecg.csv
+--WebAppBoundary--
+
+### get plot endpoint
+GET {{host}}/plot/1
+

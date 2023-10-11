@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+pytest
+matplotlib
+numpy
+pandera
+tensorflow
+cachetools
+Pillow
